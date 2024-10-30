@@ -1,0 +1,351 @@
+body{
+    background:black;
+    margin:0px;
+    padding:0px;
+    margin:0px;
+    padding:0px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    overflow:hidden;
+}
+
+.main{
+    height:100vh;
+    display:flex;
+    flex-wrap:wrap;
+}
+.sidebar{
+    height:605px;
+    /* background:#1F1F1F; */
+    margin:0.65rem;
+    color:white;
+    width:340px;
+}
+
+.hero-content{
+    height:605px;
+    background:rgb(53, 54, 55);
+    margin:0.65rem 0.65rem 0.65rem 0;
+    border-radius:10px;
+    flex:1;
+   overflow:scroll;
+}
+.music-playbar{
+    background:black;
+    display:flex;
+    position:fixed;
+    color:white;
+    bottom:0;
+    height:70px;
+    width:100%;
+}
+.home-menu{
+    height:130px;
+    width:340px;
+    background:#1F1F1F;
+    border-radius:10px;  
+    font-size:20px;
+}
+.optn-menu{
+    height:464px;
+    width:340px;
+    margin-top:0.65rem;
+    background:#1F1F1F;
+    border-radius:10px;
+}
+.home{
+    padding:22px 1px 18px 20px;
+    color:white;
+    opacity:0.6;
+}
+.search{
+    padding:5px 1px 18px 20px;
+    color:white;
+    opacity:0.6;
+}
+.home i{
+    padding:0 15px 0 0;
+}
+.search i{
+    padding:0 15px 0 0;
+}
+.search:hover{
+    opacity:1;
+    cursor:pointer;
+}
+.home:hover{
+    opacity:1;
+    cursor:pointer;
+}
+.library{
+    height:23px;
+    width:23px;
+    margin:0 1rem 0 0.5rem;
+    /* margin:10px; */
+
+}
+.library-menu-icon{
+    display:inline-block;
+    margin:10px;
+    font-size:20px;
+    font-weight:500;
+    opacity:0.6;
+}
+.library-menu-icon:hover{
+    opacity:1;
+}
+.card1{
+    display:inline-block;
+    height:150px;
+    width:320px;
+    margin:10px;
+    border-radius:8px;
+    background:#4b4c4d;
+}
+.card1 h3{
+    margin:15px 15px 15px 10px;
+}
+.card1 p{
+    opacity:0.6;
+    font-size:15px;
+    margin:0 15px 15px 10px;
+}
+.card1 button,.install-btn{
+    background:white;
+    color:black;
+    font-weight:525;
+    font-size:15px;
+    margin-left:15px;
+    padding:8px 18px 8px 18px;
+    border:none;
+    border-radius:25px;
+    margin-bottom:10px
+}
+.install-btn{
+    background:black;
+    color:white;
+     margin-right:5px;
+    
+}
+.premium{
+    background:white;
+    color:black;
+}
+.install-btn i{
+    margin-right:7px;
+}
+.library-icon{
+    display:inline;
+    position:relative;
+    left:73px;
+}
+.profile{
+    color:white;
+}
+ 
+.nav-bar{
+    height:40px;
+    width:100%;
+    margin:10px;
+}
+.library-icon i{
+    margin:10px;
+    opacity:0.6;
+    font-size:20px;
+}
+.nav-icon{
+    display:inline-block;
+    position:fixed;
+}
+.nav-btn{
+    display:inline-block;
+    text-align:left;
+    position:absolute;
+    right:2px;
+    width:300px;
+    height:40px;
+}
+@media(max-width:1100px){
+    .premium{
+        display:none;
+        
+}
+.install-btn{
+    position:absolute;
+        right:30px;
+}
+.profile{
+    position:absolute;
+        top:9px;
+        right:13px;
+}
+.forward-icon{
+    display:none;
+
+}
+    }
+
+ 
+.library-icon i:hover{
+  opacity:1;
+}
+.below-nav{
+  margin-left:20px;
+}
+.music-card1{
+    color:white;
+    background:#4b4c4d;
+    height:300px;
+    width:200px;
+    border-radius:5px;
+    padding:16px;
+    margin-left:20px;
+    margin-bottom:20px;
+}
+.music-card1 p,.music-card1 h3{
+    margin-left:5px;
+}
+.cards{
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    height:200px;
+    width:200px;
+}
+.card-content{
+    font-size:13px;
+    font-weight:400;
+    opacity:0.7;
+}
+.heading{
+    color:white;
+}
+.line-cards{
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+.playbar-name{
+    display:flex;
+    color:white;
+    height:100%;
+    width:20%;
+}
+.singer{
+    font-size:10px;
+    position:absolute;
+    left:65px;
+    bottom:8px;
+    opacity:0.6;
+}
+.song{
+    margin-left:8px;
+}
+.playbar-image{
+    height:60px;
+    width:60px;
+}
+.playbar-name-icon{
+    position:absolute;
+    bottom:1rem;
+    left:10rem;
+}
+
+.fav,.album{
+    margin-left:2px;
+    opacity:0.6;
+}
+.fav:hover{
+    opacity:1
+   }
+   .album:hover{
+    opacity:1
+   }
+
+
+.player-optns{
+   /* background:yellow; */
+   height:100%;
+   width:55%;
+}
+.player-menu{
+    height:100%;
+   width:25%;
+}
+ .musicbar{
+  height:50px;
+  width:50px;
+  position:relative;
+  top:-10px;
+}
+
+.upper-player-optns{
+    width:300px;
+    display:flex;
+    justify-content:space-between;
+    position:relative;
+    left:220px;
+    top:3px;
+}
+
+.musicbar1,.musicbar2{
+    height:20px;
+    width:20px;
+    position:relative;
+    top:2px;
+}
+
+.lower-player{
+    position:relative;
+    left:12.5rem;
+    
+}
+.progress-bar{
+    -webkit-apperance:none;
+    appearance:none;
+    background:transparent;
+    cursor:pointer;
+    width:250px;
+}
+.progress-bar::-webkit-slider-runnable-track{
+    background:white;
+    border-radius:1rem;
+    position:relative;
+    
+    bottom:5px; 
+    height:7px;
+}
+.progress-bar::-webkit-slider-thumb{
+    position:relative;
+    bottom:3.5px;
+    color:green;
+}
+.player-menu img{
+    height:35px;
+    width:35px;
+}
+.player-menu{
+    position:relative;
+    left:30px;
+    top:20px;
+}
+.vol{
+    -webkit-apperance:none;
+    appearance:none;
+    background:transparent;
+    cursor:pointer;
+    
+}
+.vol::-webkit-slider-runnable-track{
+    background:white;
+    height:6px;
+    position:relative;
+    bottom:1rem;
+    border-radius:1rem;
+}
+
+.vol::-webkit-slider-thumb{
+    position:relative;
+    bottom:3.5px;
+}
